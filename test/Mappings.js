@@ -39,7 +39,6 @@ describe('Mappings', () => {
       expect(result[0]).to.equal('Les Miserables')
       expect(result[1]).to.equal('Victor Hugo')
 
-
       let user1 = '0x3EcEf08D0e2DaD803847E052249bb4F8bFf2D5bB'
       let dai = '0x6B175474E89094C44Da98b954EedeAC495271d0F'
       expect(await contract.balances(user1, dai)).to.equal(ether(1))
